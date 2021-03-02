@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.stunning-logo{ 
+    transform: scale(0.2);
+    
+   
+    
+}
+#top-bar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: -150px;
+    margin-top: -50px;
+}
+a{
+    margin-right:50px;
+}
+a:hover{
+    border-bottom: 3px solid blue;
+}
+.btn-primary{
+    margin-right: 35px;
+    padding: 10px;
+    background-color:#ffd8db;
+    border-radius: 10px;
+    border-style: none;
+    font: weight 500px;
+}
+h1{
+    font-size: 95px;
+    font-weight:bold;
+    line-height: 25px;
+   
+}
+.square{
+    color:#5243c0;
+    font-size: 12px;
+}
+#left-section{
+    margin-left: 150;
+    display: flex;
+    justify-content: space-between;
+    
+}
+p{
+    position: relative;
+    margin-top: -40px;
+    font-size:20;
+    
+}
+.btn-secondary{
+   padding: 15px 45px;
+   border-radius: 25px;
+   border-style: hidden;
+  background-color: #5243c0;
+  color: whitesmoke;
+
+}
+
+.arrow{
+  position: relative;
+ padding-left: 10;
+  
+}
+.new{
+    display: flex;
+   
+}
+#list-wrapper {
+    margin-top: 76px;
+  }
+  .list-item {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+  }
+  .list-item-1 {
+    background: linear-gradient(to top, rgba(235, 235, 235, 0.4), #fff);
+  }
+  .high-lighted-list {
+    background-color: #fff;
+    box-shadow: 0px 2px 36px #ccc;
+  }
+  .list-item-3 {
+    background: linear-gradient(to bottom, rgba(235, 235, 235, 0.4), #fff);
+  }
+  .tick-circle {
+    margin-right: 12px;
+  }
+  .list-item .name {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    width: 120px;
+    margin-right: 72px;
+  }
+  .user-icon {
+    margin-right: 16px;
+  }
+  .date {
+    margin: 8px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #c8c8c6;
+  }
+  #color-indicator {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin: 12px;
+  }
+  .pink-color {
+    background-color: #ffd8db;
+  }
+  .orange-color {
+    background-color: #fd6534;
+  }
+  .green-color {
+    background-color: #9ed196;
+  }
+  .red-color {
+    background-color: #ffe29e;
+  }
+  .name-refund{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    width: 120px;
+    margin-right: 72px;
+  }
+  
